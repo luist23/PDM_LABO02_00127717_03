@@ -7,20 +7,26 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/color3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"></LinearLayout>
+        android:layout_weight="1"
+        android:background="@color/color3" />
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/color2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"></LinearLayout>
+        android:layout_weight="1"
+        android:background="@color/color2" />
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/color1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"></LinearLayout>
+        android:layout_weight="1"
+        android:background="@color/color1"/>
 
 
 </LinearLayout>
